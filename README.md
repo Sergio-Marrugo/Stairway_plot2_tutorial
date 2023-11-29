@@ -22,15 +22,15 @@ Clone this repository with the command git clone https://github.com/Sergio-Marru
 In the sfs folder you will find a file Example_folded.blueprint. During the session we will get familiar with this file, for it is the place where we specify the parameters to use during the analysis.
 
 We will need to modify the following entries:
-popid: id of population, no whitespace allowed
-nseq: number of chromosomes in the population
-L: sequence length
-SFS: copy and paste the sfs from your population without the first column of invariant sites.
-nrand: number of randomization break points according to the manual
-project_dir: name of the directory you want the results in
-mu: mutation rate
-year_per_generation: generation length
-plot_title
+1) popid: id of population, no whitespace allowed
+2) nseq: number of chromosomes in the population
+3) L: sequence length
+4) SFS: copy and paste the sfs from your population without the first column of invariant sites.
+5) nrand: number of randomization break points according to the manual
+6) project_dir: name of the directory you want the results in
+7) mu: mutation rate
+8) year_per_generation: generation length
+9) plot_title
 
 #Estimating the sequence length
 
