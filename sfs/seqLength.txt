@@ -1,0 +1,6 @@
+#This is an exaple for computing sequence lenght
+Total Length (T0) = 29134537
+variant sites (Vt) = 652567
+sum row values SFS per population (Vp) = awk '{for(i=1;i<=NF;i++) t+=$i; print t; t=0}'
+L = T0 * (Vp/Vt)
+
