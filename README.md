@@ -11,12 +11,12 @@ We will go over six main steps for conducting this analysis.
 5) Graph the results with ribbon plots on R studio
 6) Interpreting the results and comparing population/regional histories
 
-Downloading STWP2
+#Downloading STWP2
 
 You can download the executable files of STWP2 v 1.1 in this github repository https://github.com/xiaoming-liu/stairway-plot-v2/tree/master
 No installing needed, only place your .sfs files inside the stairway_plot_v2.1.1 folder.
 
-The Blueprint File
+#The Blueprint File
 
 Clone this repository with the command git clone https://github.com/Sergio-Marrugo/Stairway_plot2_tutorial/tree/main
 In the sfs folder you will find a file Example_folded.blueprint. During the session we will get familiar with this file, for it is the place where we specify the parameters to use during the analysis.
@@ -32,12 +32,12 @@ mu: mutation rate
 year_per_generation: generation length
 plot_title
 
-Estimating the sequence length
+#Estimating the sequence length
 
 In the sfs folder you will find the seqLength.txt file with the rationale for estimating parameter L
 The number of total sites and polymorphic sites are found in the file populations.sumstats_summary.csv
 
-Commands for running the analysis
+#Commands for running the analysis
 
 STWP2 folder comes with a pdf manual where you can find the steps and commands for running this analysis
 
