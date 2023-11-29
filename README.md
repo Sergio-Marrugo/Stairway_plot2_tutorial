@@ -43,4 +43,4 @@ STWP2 folder comes with a pdf manual where you can find the steps and commands f
 
 Create ribbon plots in R
 
-Download the results and the ribbon_plots.r file into your PC and follow the steps for creating the graph.
+Download the results and the STWP2_plots.Rmd file into your PC and follow the steps for creating the graph.
