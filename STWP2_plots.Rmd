@@ -1,0 +1,38 @@
+---
+title: "Ribbon_STWP2"
+author: "Sergio Marrugo"
+date: "2023-11-29"
+output: html_document
+---
+
+## R Markdown
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+#Set your working directory and load ggplot package
+```{r}
+setwd("C:/directory/")
+library(ggplot2)
+```
+
+#Read your STWP2 population results
+```{r}
+Population1 <- read.table("Population1_folded.final.summary", header = T)
+Population2 <- read.table("Population2_Folded.final.summary", header=T)
+```
+
+#ggplot2 code
+```{r}
+STWP_plot <- ggplot()+
+  geom_ribbon(data=Population1, mapping = aes(ymin=Ne_2.5. , ymax= Ne_97.5., x=year, fill="Population1")
+              ,alpha= 0.5)+
+  geom_ribbon(data=Population2, mapping = aes(ymin= Ne_2.5. , ymax= Ne_97.5., x=year, fill="Population2")
+              ,alpha= 0.5)+
+  scale_x_log10()+
+  scale_y_log10()
+```
+
+```{r}
+STWP_plot
+```
+
